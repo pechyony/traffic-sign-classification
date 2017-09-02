@@ -106,24 +106,23 @@ The augmented training set has the images after contrast normalization pipeline 
 
 My final model has the following layers:
 
-| Layer         		|     Description	        					|
-|:---------------------:|:-----------------------------:|
-| Input         		| 32x32x3 RGB image   							|
-| Convolution 1x1   | 1x1 stride, valid padding, outputs array 32x32x12                   |
-| ReLU              | ReLU activation unit                                   |
-| Convolution 5x5   | 1x1 stride, valid padding, outputs array 28x28x24 	|
-| ReLU					| ReLU activation unit 												|
-| Max pooling	      	| 2x2 stride,  valid padding, outputs array 14x14x24 				|
-| Convolution 5x5	    | 1x1 stride, valid padding, outputs array 10x10x64  |
-| ReLU         |  ReLU activation unit                                   |
-| Max pooling	      	| 2x2 stride, valid padding, outputs array 5x5x64 				|
-| Flattening          | outputs a vector of length 1600
-| Fully connected		| outputs a vector of length 120        									|
-| ReLU              |   ReLU activation unit                                  |
-| Fully connected   | outputs a vector of length 84                          |
-| ReLU              |  84 ReLU activation units                                   |
-| Fully connected   | outputs outputs a vector of length 43                          |
-| Softmax				| outputs 43 probabilities       									|
+| Layer Number | Layer         		|     Description	        					|
+|:-:|:---------------------:|:-----------------------------:|
+| 0 | Input         		| 32x32x3 RGB image   							|
+| 1 | Convolution 1x1   | 1x1 stride, valid padding, outputs array 32x32x12                   |
+| 2 | ReLU              | 32x32x12 ReLU activation units                                   |
+| 3 | Convolution 5x5   | 1x1 stride, valid padding, outputs array 28x28x24 	|
+| 4 | ReLU					| 28x28x24 ReLU activation unit 												|
+| 5 | Max pooling	      	| 2x2 stride,  valid padding, outputs array 14x14x24 				|
+| 6 | Convolution 5x5	    | 1x1 stride, valid padding, outputs array 10x10x64  |
+| 7 | ReLU         |  10x10x64 ReLU activation units                                   |
+| 8 | Max pooling	      	| 2x2 stride, valid padding, outputs array 5x5x64 				|
+| 9 | Flattening          | outputs a vector of length 1600
+| 10 | Fully connected		| outputs a vector of length 120        									|
+| 11 | ReLU              | 120  ReLU activation units                                  |
+| 12 | Fully connected   | outputs a vector of length 84                          |
+| 13 | ReLU              | 84 ReLU activation units                                   |
+| 14 | Fully connected   | outputs outputs a vector of length 43                          |
 
 #### 3. Training the model
 
