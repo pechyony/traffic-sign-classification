@@ -112,7 +112,7 @@ My final model has the following layers:
 | 1 | Convolution 1x1   | 1x1 stride, valid padding, outputs array 32x32x12                   |
 | 2 | ReLU              | 32x32x12 ReLU activation units                                   |
 | 3 | Convolution 5x5   | 1x1 stride, valid padding, outputs array 28x28x24 	|
-| 4 | ReLU					| 28x28x24 ReLU activation unit 												|
+| 4 | ReLU					| 28x28x24 ReLU activation units 												|
 | 5 | Max pooling	      	| 2x2 stride,  valid padding, outputs array 14x14x24 				|
 | 6 | Convolution 5x5	    | 1x1 stride, valid padding, outputs array 10x10x64  |
 | 7 | ReLU         |  10x10x64 ReLU activation units                                   |
