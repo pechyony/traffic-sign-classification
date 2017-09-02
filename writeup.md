@@ -31,12 +31,12 @@ The goals / steps of this project are the following:
 [websign12]: ./webimages/sign12.jpg "Traffic Sign 12"
 [websign13]: ./webimages/sign13.jpg "Traffic Sign 13"
 [websign14]: ./webimages/sign14.jpg "Traffic Sign 14"
-[webpred1]: ./webpredictions1.PNG "Web Predictions 1"
-[webpred2]: ./webpredictions2.PNG "Web Predictions 2"
-[webpred3]: ./webpredictions3.PNG "Web Predictions 3"
-[visualization1]: ./visualization1.PNG "Visualization 1"
-[visualization2]: ./visualization2.PNG "Visualization 2"
-[visualization3]: ./visualization3.PNG "Visualization 3"
+[webpred1]: ./webpredictions1.png "Web Predictions 1"
+[webpred2]: ./webpredictions2.png "Web Predictions 2"
+[webpred3]: ./webpredictions3.png "Web Predictions 3"
+[visualization1]: ./visualization1.png "Visualization 1"
+[visualization2]: ./visualization2.png "Visualization 2"
+[visualization3]: ./visualization3.png "Visualization 3"
 
 
 ## Rubric Points
