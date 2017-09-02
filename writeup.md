@@ -1,4 +1,4 @@
-# **Traffic Sign Recognition**
+﻿# **Traffic Sign Recognition**
 
 **Build a Traffic Sign Recognition Project**
 
@@ -109,19 +109,19 @@ My final model has the following layers:
 | Layer         		|     Description	        					|
 |:---------------------:|:-----------------------------:|
 | Input         		| 32x32x3 RGB image   							|
-| Convolution 1x1   | outputs array 32x32x12                   |
-| ReLU              |                                   |
+| Convolution 1x1   | 1x1 stride, valid padding, outputs array 32x32x12                   |
+| ReLU              | ReLU activation unit                                   |
 | Convolution 5x5   | 1x1 stride, valid padding, outputs array 28x28x24 	|
-| ReLU					|												|
-| Max pooling	      	| 2x2 stride,  outputs array 14x14x24 				|
+| ReLU					| ReLU activation unit 												|
+| Max pooling	      	| 2x2 stride,  valid padding, outputs array 14x14x24 				|
 | Convolution 5x5	    | 1x1 stride, valid padding, outputs array 10x10x64  |
-| ReLU         |                                     |
-| Max pooling	      	| 2x2 stride,  outputs array 5x5x64 				|
+| ReLU         |  ReLU activation unit                                   |
+| Max pooling	      	| 2x2 stride, valid padding, outputs array 5x5x64 				|
 | Flattening          | outputs a vector of length 1600
 | Fully connected		| outputs a vector of length 120        									|
-| ReLU              |                                     |
+| ReLU              |   ReLU activation unit                                  |
 | Fully connected   | outputs a vector of length 84                          |
-| ReLU              |                                     |
+| ReLU              |  84 ReLU activation units                                   |
 | Fully connected   | outputs outputs a vector of length 43                          |
 | Softmax				| outputs 43 probabilities       									|
 
